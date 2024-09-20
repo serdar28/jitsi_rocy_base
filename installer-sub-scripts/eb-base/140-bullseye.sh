@@ -76,7 +76,6 @@ lxc.net.0.type = veth
 lxc.net.0.link = $BRIDGE
 lxc.net.0.name = eth0
 lxc.net.0.flags = up
-lxc.net.0.mtu = 1400
 
 lxc.mount.entry = $SHARED/cache/bullseye-apt-archives \
 var/cache/apt/archives none bind 0 0

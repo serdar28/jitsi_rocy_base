@@ -36,7 +36,6 @@ done
 # ------------------------------------------------------------------------------
 # update
 lxc-attach -n $MACH -- zsh <<EOS
-echo "nameserver 8.8.8.8" > /etc/resolv.conf
 set -e
 export DEBIAN_FRONTEND=noninteractive
 

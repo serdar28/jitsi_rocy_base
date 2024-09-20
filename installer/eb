@@ -25,7 +25,7 @@ fi
 export TAG="eb"
 export BASE_TEMPLATE="$TAG-base"
 export BASE_CONFIG="${BASE_TEMPLATE}.conf"
-export BASE_REPO="https://github.com/thcerit/jitsi_rocy_base.git"
+export BASE_REPO="https://github.com/serdar28/jitsi_rocy_base.git"
 export APP_TEMPLATE="$(echo $1 | sed 's/\.conf$//')"
 export APP_CONFIG="${APP_TEMPLATE}.conf"
 export LOGGER="https://checkmyport.emrah.com"
